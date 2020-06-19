@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://kit.fontawesome.com/8d9f47f2ed.js" crossorigin="anonymous"></script>
+    <script src="scripts/transition.js"></script>
     <link href="styles/navbar_style.css" rel="stylesheet">
     <link href="styles/content_style.css" rel="stylesheet">
 </head>
@@ -16,10 +17,10 @@
     <header>
         <nav>
             <ul>
-                <li class="active about"><a href="#"><i class="far fa-user"></i>About Me</a></li>
-                <li class="travel"><a href="#"><i class="fas fa-home"></i>Travel</a></li>
-                <li class="recipes"><a href="#"><i class="fas fa-search"></i>Recipes</a></li>
-                <li class="selfcare"><a href="#"><i class="far fa-heart"></i>Self Care</a></li>
+                <li><button class="active" id="about" onclick="color_change('about')"><i class="far fa-user"></i>About Me</button></li>
+                <li><button class="" id="travel" onclick="color_change('travel')"><i class="fas fa-home"></i>Travel</a></li>
+                <li><button class="" id="recipes" onclick="color_change('recipes')"><i class="fas fa-search"></i>Recipes</a></li>
+                <li><button class="" id="selfcare" onclick="color_change('selfcare')"><i class="far fa-heart"></i>Self Care</a></li>
             </ul>
         </nav>
     </header>
