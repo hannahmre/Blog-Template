@@ -1,0 +1,42 @@
+nav {
+    font-family: Didot;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+li a {
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px;
+    color: black;
+}
+
+.about {
+    background-color: #f6d5f6;
+}
+
+.travel {
+    background-color: #dcd2f9;
+}
+
+.recipes {
+    background-color: #ccffff;
+}
+
+.selfcare {
+    background-color: #ccffd9;
+}
