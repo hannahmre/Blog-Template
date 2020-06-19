@@ -5,6 +5,7 @@ nav {
     width: 600px;
     height: 120px;
     margin: auto;
+    background-color: white;
 }
 
 nav ul {
@@ -46,4 +47,20 @@ nav i {
 
 .selfcare {
     background-color: #ccffd9;
+}
+
+.about a:hover {
+    background-color: #ffccff;
+}
+
+.travel a:hover {
+    background-color: #ccccff;
+}
+
+.recipes a:hover {
+    background-color: #ccffff;
+}
+
+.selfcare a:hover {
+    background-color: #ccffcc;
 }
