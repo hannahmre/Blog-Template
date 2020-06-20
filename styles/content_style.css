@@ -2,19 +2,19 @@ body {
     background-color: #ffccff;
 }
 
-.contentbox1 {
+.content-boxes div {
     width: 60%;
-    /* height: 800px; */
     margin: auto;
     margin-top: 30px;
     padding: 0;
-    display: block;
+    /* display: block; */
 }
 
-.contentbox1 div {
-    width: 100%;
+.box div {
+    width: 80%;
     height: 230px;
     margin: auto;
     margin-top: 20px;
     background-color: white;
+    box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2);
 }

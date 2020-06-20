@@ -17,21 +17,30 @@
     <header>
         <nav>
             <ul>
-                <li><button class="active" id="about" onclick="color_change('about')"><i class="far fa-user"></i>About Me</button></li>
-                <li><button class="" id="travel" onclick="color_change('travel')"><i class="fas fa-home"></i>Travel</a></li>
-                <li><button class="" id="recipes" onclick="color_change('recipes')"><i class="fas fa-search"></i>Recipes</a></li>
-                <li><button class="" id="selfcare" onclick="color_change('selfcare')"><i class="far fa-heart"></i>Self Care</a></li>
+                <li><button class="active about" id="about" onclick="color_change('about')"><i class="far fa-user"></i>About Me</button></li>
+                <li><button class="travel" id="travel" onclick="color_change('travel')"><i class="fas fa-home"></i>Travel</a></li>
+                <li><button class="recipes" id="recipes" onclick="color_change('recipes')"><i class="fas fa-search"></i>Recipes</a></li>
+                <li><button class="selfcare" id="selfcare" onclick="color_change('selfcare')"><i class="far fa-heart"></i>Self Care</a></li>
             </ul>
         </nav>
     </header>
     <section class="content-boxes">
-        <div class="contentbox1">
+        <div id="contentbox1" class="contentbox1 box">
             <div class="box1post1"></div>
             <div class="box1post2"></div>
         </div>
-        <div class="contentbox2" style="display: none;"></div>
-        <div class="contentbox3" style="display: none;"></div>
-        <div class="contentbox4" style="display: none;"></div>
+        <div id="contentbox2" class="contentbox2 box" style="display: none;">
+            <div class="box1post1"></div>
+            <div class="box1post2"></div>
+        </div>
+        <div id="contentbox3" class="contentbox3 box" style="display: none;">
+            <div class="box1post1"></div>
+            <div class="box1post2"></div>
+        </div>
+        <div id="contentbox4" class="contentbox4 box" style="display: none;">
+            <div class="box1post1"></div>
+            <div class="box1post2"></div>
+        </div>
     </section>
 </body>
 
