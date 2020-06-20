@@ -72,3 +72,13 @@ nav i {
 #selfcare button:hover {
     background-color: #ccffcc;
 }
+
+.tabs p {
+    overflow: hidden;
+    max-width: 0;
+}
+
+.tabs.active p {
+    max-width: 200px;
+    transition: max-width 0.4s linear;
+}
