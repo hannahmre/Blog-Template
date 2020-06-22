@@ -80,5 +80,6 @@ nav i {
 
 .tabs.active p {
     max-width: 200px;
+    padding-left: 10px;
     transition: max-width 0.4s linear;
 }
