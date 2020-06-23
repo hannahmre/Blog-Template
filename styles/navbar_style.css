@@ -89,3 +89,7 @@ nav i {
     background-color: #99ff99;
     padding: 15px 25px;
 }
+
+.active a:hover {
+    padding: 0px;
+}
