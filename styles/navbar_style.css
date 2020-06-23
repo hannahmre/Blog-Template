@@ -11,23 +11,22 @@ nav {
 nav ul {
     list-style-type: none;
     padding-top: 50px;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 nav li {
     display: inline;
-    padding-top: 14px;
-    padding-bottom: 12px;
-    margin-right: 5px;
+    margin-right: 8px;
     margin-left: 5px;
+    padding: 10px 20px;
     border-radius: 50px 50px 50px 50px;
 }
 
 li a {
     font-size: 18px;
-    text-decoration: none;
     border-radius: 50px 50px 50px 50px;
-    padding: 15px;
+    text-align: center;
+    text-decoration: none;
     color: black;
 }
 
@@ -56,35 +55,39 @@ nav i {
 }
 
 .about a:hover {
-    background-color: #ffccff;
+    padding: 12px 18px;
 }
 
 .travel a:hover {
-    background-color: #ccccff;
+    padding: 12px 18px;
 }
 
 .recipes a:hover {
-    background-color: #ccffff;
+    padding: 12px 18px;
 }
 
 .selfcare a:hover {
-    background-color: #ccffcc;
+    padding: 12px 18px;
 }
 
 .about.active {
     background-color: #ffccff;
+    padding: 15px 25px;
 }
 
 .travel.active {
     background-color: #ccccff;
+    padding: 12px 25px;
 }
 
 .recipes.active {
     background-color: #ccffff;
+    padding: 12px 25px;
 }
 
 .selfcare.active {
     background-color: #ccffcc;
+    padding: 12px 25px;
 }
 
 
