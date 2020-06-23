@@ -11,7 +11,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: auto;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 nav li {
@@ -21,7 +21,7 @@ nav li {
     border-radius: 50px 50px 50px 50px;
 }
 
-li button {
+li a {
     font-size: 18px;
     text-decoration: none;
     border-radius: 50px 50px 50px 50px;
@@ -33,47 +33,44 @@ nav i {
     padding-right: 10px;
 }
 
-#about {
+.about {
     background-color: #f6d5f6;
-    border: white;
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#travel {
+.travel {
     background-color: #dcd2f9;
-    border: white;
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#recipes {
+.recipes {
     background-color: #ccffff;
-    border: white;
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#selfcare {
+.selfcare {
     background-color: #ccffd9;
-    border: white;
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#about button:hover {
+.about a:hover {
     background-color: #ffccff;
 }
 
-#travel button:hover {
+.travel a:hover {
     background-color: #ccccff;
 }
 
-#recipes button:hover {
+.recipes a:hover {
     background-color: #ccffff;
 }
 
-#selfcare button:hover {
+.selfcare a:hover {
     background-color: #ccffcc;
 }
 
-.tabs p {
+
+/* .tabs p {
     overflow: hidden;
     max-width: 0;
 }
@@ -82,4 +79,4 @@ nav i {
     max-width: 200px;
     padding-left: 10px;
     transition: max-width 0.4s linear;
-}
+} */
