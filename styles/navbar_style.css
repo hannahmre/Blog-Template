@@ -77,27 +77,15 @@ nav i {
 
 .travel.active {
     background-color: #ccccff;
-    padding: 12px 25px;
+    padding: 15px 25px;
 }
 
 .recipes.active {
-    background-color: #ccffff;
-    padding: 12px 25px;
+    background-color: #99ffff;
+    padding: 15px 25px;
 }
 
 .selfcare.active {
-    background-color: #ccffcc;
-    padding: 12px 25px;
+    background-color: #99ff99;
+    padding: 15px 25px;
 }
-
-
-/* .tabs p {
-    overflow: hidden;
-    max-width: 0;
-}
-
-.tabs.active p {
-    max-width: 200px;
-    padding-left: 10px;
-    transition: max-width 0.4s linear;
-} */
