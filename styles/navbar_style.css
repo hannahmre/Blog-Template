@@ -2,7 +2,7 @@ nav {
     font-family: Didot;
     border-radius: 50px 0px 50px 0px;
     box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 600px;
+    width: 900px;
     height: 120px;
     margin: auto;
     background-color: white;
@@ -10,14 +10,16 @@ nav {
 
 nav ul {
     list-style-type: none;
-    padding: auto;
     padding-top: 50px;
+    margin-left: 15%;
 }
 
 nav li {
     display: inline;
     padding-top: 14px;
     padding-bottom: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
     border-radius: 50px 50px 50px 50px;
 }
 
@@ -66,6 +68,22 @@ nav i {
 }
 
 .selfcare a:hover {
+    background-color: #ccffcc;
+}
+
+.about.active {
+    background-color: #ffccff;
+}
+
+.travel.active {
+    background-color: #ccccff;
+}
+
+.recipes.active {
+    background-color: #ccffff;
+}
+
+.selfcare.active {
     background-color: #ccffcc;
 }
 
