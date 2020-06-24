@@ -4,19 +4,16 @@
 
 .content-box {
     width: 60vw;
-    height: 90vh;
+    height: 50vh;
     margin: auto;
     margin-top: 30px;
     padding: 0;
-    border: 1px solid black;
-    /* background-color: white; */
-    /* box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .profilepic {
-    position: static;
-    height: 100%;
-    width: 100%;
+    /* position: absolute; */
+    /* height: 100%;
+    width: 100%; */
 }
 
 .introductiontext {
