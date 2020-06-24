@@ -1,5 +1,16 @@
-#contentbox1 div {
+/* #contentbox1 div {
     height: 80vh;
+} */
+
+.content-box {
+    width: 60vw;
+    height: 90vh;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0;
+    border: 1px solid black;
+    /* background-color: white; */
+    /* box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .profilepic {
@@ -10,9 +21,13 @@
 
 .introductiontext {
     position: relative;
-    top: 0;
-    right: 0;
+    top: -800px;
+    left: 650px;
     z-index: 1;
-    width: 20%;
-    height: 20%;
+}
+
+.introductiontext p {
+    font-size: 40px;
+    display: inline;
+    /* top: -300px; */
 }
