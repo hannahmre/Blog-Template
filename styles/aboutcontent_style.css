@@ -1,3 +1,18 @@
 #contentbox1 div {
-    height: 70vh;
+    height: 80vh;
+}
+
+.profilepic {
+    position: static;
+    height: 100%;
+    width: 100%;
+}
+
+.introductiontext {
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 20%;
+    height: 20%;
 }
