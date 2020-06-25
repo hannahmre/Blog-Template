@@ -17,11 +17,15 @@ body {
 .introductiontext {
     position: relative;
     top: -100%;
-    left: 50%;
+    left: 45%;
     z-index: 1;
 }
 
 .introductiontext p {
     font-size: 40px;
     display: inline;
+}
+
+.introductiontext h1 {
+    /* padding-left: 40px; */
 }
