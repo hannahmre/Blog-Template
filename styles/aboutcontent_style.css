@@ -15,10 +15,10 @@
 }
 
 .introductiontext {
-    /* position: relative;
-    top: -800px;
-    left: 650px;
-    z-index: 1; */
+    position: relative;
+    top: -100%;
+    left: 50%;
+    z-index: 1;
 }
 
 .introductiontext p {
