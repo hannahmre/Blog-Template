@@ -1,36 +1,27 @@
 // var buttons = document.getElementsByClassName('tabs');
 // var boxes = document.getElementsByClassName('box');
 
-var timing = setInterval(setText, 800);
+var timing = setInterval(setText, 900);
 
 var texts = ["a Blogger", "an Entrepreneur", "a Traveler", "a Cook", "a Health Nut", "a Web Developer"];
 
-// function setText() {
-//     while (x == false) {
-//         for (var word = 0; word < texts.length - 1; word++) {
-//             document.getElementById("profileoption").innerHTML = texts[word];
-//         }
-//     }
-// }
-
 var prevword;
 var currentword;
+var count;
 
 function setText() {
-    console.log('in here')
-    for (var word = 0; word < texts.length; word++) {
-        // console.log(texts[word])
-        if (prevword != texts[word]) {
-            currentword = texts[word];
-            console.log(currentword)
-            document.getElementById("profileoption").innerHTML = currentword;
-            prevword = texts[word];
-
-        } else {
-            document.getElementById("profileoption").innerHTML = texts[word + 1];
-            prevword = texts[word + 1];
-        }
-
+    if (prevword == null || (count >= texts.length)) {
+        count = 0;
+        currentword = texts[count];
+        console.log(currentword)
+        document.getElementById("profileoption").innerHTML = currentword;
+        prevword = currentword;
+        count += 1;
+    } else {
+        document.getElementById("profileoption").innerHTML = texts[count];
+        currentword = texts[count];
+        prevword = currentword;
+        count += 1;
     }
 }
 
