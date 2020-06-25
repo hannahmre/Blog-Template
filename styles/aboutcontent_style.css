@@ -2,25 +2,23 @@
     height: 80vh;
 } */
 
-.content-box {
-    width: 60vw;
-    height: 50vh;
+.contentbox {
+    width: 70vw;
+    height: 80vh;
     margin: auto;
-    margin-top: 30px;
     padding: 0;
 }
 
 .profilepic {
-    /* position: absolute; */
-    /* height: 100%;
-    width: 100%; */
+    height: 100%;
+    width: 100%;
 }
 
 .introductiontext {
-    position: relative;
+    /* position: relative;
     top: -800px;
     left: 650px;
-    z-index: 1;
+    z-index: 1; */
 }
 
 .introductiontext p {
