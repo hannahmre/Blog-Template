@@ -14,7 +14,6 @@ img {
 
 body {
     font-family: Didot;
-    background-color: #ffccff;
     overflow-x: hidden;
 }
 
@@ -33,8 +32,9 @@ body {
     left: 1000px; */
 
 
-}
-*/
+/* } */
+
+
 /* @keyframes motion {
     0% {
         left: 1000px;

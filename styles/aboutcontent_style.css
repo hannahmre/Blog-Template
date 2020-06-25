@@ -1,6 +1,6 @@
-/* #contentbox1 div {
-    height: 80vh;
-} */
+body {
+    background-color: #ffccff;
+}
 
 .contentbox {
     width: 70vw;
@@ -24,5 +24,4 @@
 .introductiontext p {
     font-size: 40px;
     display: inline;
-    /* top: -300px; */
 }
