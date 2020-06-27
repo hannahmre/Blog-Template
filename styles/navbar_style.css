@@ -1,22 +1,22 @@
 nav {
     border-radius: 50px 0px 50px 0px;
     box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 75vw;
+    width: 80vw;
     height: 20vh;
     margin: auto;
     background-color: white;
+    display: flex;
+    align-items: center;
 }
 
 nav ul {
+    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
-    padding-top: 50px;
-    margin-left: 10%;
+    width: 100%;
 }
 
 nav li {
-    display: inline;
-    margin-right: 8px;
-    margin-left: 5px;
     padding: 12px 20px;
     border-radius: 50px 50px 50px 50px;
 }
@@ -92,3 +92,13 @@ nav i {
 .active a:hover {
     padding: 0px;
 }
+
+@media (max-width: 600px) {}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) {}
