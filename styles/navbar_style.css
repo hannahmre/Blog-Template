@@ -91,6 +91,38 @@ div p {
     div i {
         padding-left: 10px;
     }
+    .about a:hover {
+        padding: 5px 28px;
+    }
+    .travel a:hover {
+        /* padding: 5px 28px; */
+        /* background-color: black; */
+    }
+    .recipes a:hover {
+        padding: 5px 18px;
+    }
+    .selfcare a:hover {
+        padding: 5px 18px;
+    }
+    .about.active {
+        background-color: #ffccff;
+        padding: 5px 20px;
+    }
+    .travel.active {
+        background-color: #ccccff;
+        padding: 5px 20px;
+    }
+    .recipes.active {
+        background-color: #99ffff;
+        padding: 5px 20px;
+    }
+    .selfcare.active {
+        background-color: #99ff99;
+        padding: 5px 20px;
+    }
+    .active a:hover {
+        padding: 0px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -98,32 +130,32 @@ div p {
         padding: 0px 25px;
     }
     .about a:hover {
-        padding: 12px 18px;
+        padding: 5px 18px;
     }
     .travel a:hover {
-        padding: 12px 18px;
+        padding: 5px 18px;
     }
     .recipes a:hover {
-        padding: 12px 18px;
+        padding: 5px 18px;
     }
     .selfcare a:hover {
-        padding: 12px 18px;
+        padding: 5px 18px;
     }
     .about.active {
         background-color: #ffccff;
-        padding: 15px 25px;
+        padding: 10px 25px;
     }
     .travel.active {
         background-color: #ccccff;
-        padding: 15px 25px;
+        padding: 10px 25px;
     }
     .recipes.active {
         background-color: #99ffff;
-        padding: 15px 25px;
+        padding: 10px 25px;
     }
     .selfcare.active {
         background-color: #99ff99;
-        padding: 15px 25px;
+        padding: 10px 25px;
     }
     .active a:hover {
         padding: 0px;
