@@ -91,42 +91,27 @@ div p {
     div i {
         padding-left: 10px;
     }
-    .about a:hover {
-        padding: 5px 28px;
-    }
-    .travel a:hover {
-        /* padding: 5px 28px; */
-        /* background-color: black; */
-    }
-    .recipes a:hover {
-        padding: 5px 18px;
-    }
-    .selfcare a:hover {
-        padding: 5px 18px;
-    }
     .about.active {
         background-color: #ffccff;
-        padding: 5px 20px;
+        padding: 10px 25px;
     }
     .travel.active {
         background-color: #ccccff;
-        padding: 5px 20px;
+        padding: 10px 25px;
     }
     .recipes.active {
         background-color: #99ffff;
-        padding: 5px 20px;
+        padding: 10px 25px;
     }
     .selfcare.active {
         background-color: #99ff99;
-        padding: 5px 20px;
-    }
-    .active a:hover {
-        padding: 0px;
+        padding: 10px 25px;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .open {
+        height: 50px;
         padding: 0px 25px;
     }
     .about a:hover {
@@ -143,19 +128,19 @@ div p {
     }
     .about.active {
         background-color: #ffccff;
-        padding: 10px 25px;
+        padding: 0px 25px;
     }
     .travel.active {
         background-color: #ccccff;
-        padding: 10px 25px;
+        padding: 0px 25px;
     }
     .recipes.active {
         background-color: #99ffff;
-        padding: 10px 25px;
+        padding: 0px 25px;
     }
     .selfcare.active {
         background-color: #99ff99;
-        padding: 10px 25px;
+        padding: 0px 25px;
     }
     .active a:hover {
         padding: 0px;
