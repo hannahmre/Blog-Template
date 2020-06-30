@@ -10,16 +10,7 @@ nav {
     justify-content: space-evenly;
 }
 
-
-/* nav div {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    width: 100%;
-} */
-
 nav div {
-    /* padding: 12px 20px; */
     border-radius: 50px 50px 50px 50px;
     display: flex;
     align-items: center;
