@@ -3,12 +3,10 @@ body {
 }
 
 .contentbox {
-    width: 75vw;
-    height: 80vh;
+    /* width: 75vw;
+    height: 80vh; */
     margin: auto;
     padding: 0;
-    /* display: flex;
-    justify-content: center; */
 }
 
 .profilepic {
@@ -22,36 +20,51 @@ body {
     left: 36%;
     z-index: 1;
     text-align: center;
-    padding: 0;
-    width: 40vw;
-    height: 30vh;
-    line-height: 55px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .introductiontext p {
     font-size: 3vw;
-    display: inline;
 }
 
 .introductiontext h1 {
     font-size: 5vw;
-    margin: 0;
+    margin: auto;
 }
 
-
-/* 
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+    .contentbox {
+        width: 100vw;
+        height: 80vh;
+    }
+    .introductiontext {
+        width: 55vw;
+        height: 35vh;
+    }
+}
 
 @media (max-width: 768px) {
-    .introductiontext p {
-        font-size: 20px;
+    .contentbox {
+        width: 90vw;
+        height: 80vh;
+    }
+    .introductiontext {
+        width: 50vw;
+        height: 35vh;
     }
 }
 
 @media (min-width: 769px) {
-    .introductiontext p {
-        font-size: 40px;
+    .contentbox {
+        width: 75vw;
+        height: 80vh;
     }
-} */
+    .introductiontext {
+        width: 40vw;
+        height: 35vh;
+    }
+}
