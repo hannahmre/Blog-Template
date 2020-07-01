@@ -3,8 +3,6 @@ body {
 }
 
 .contentbox {
-    /* width: 75vw;
-    height: 80vh; */
     margin: auto;
     padding: 0;
 }
@@ -27,10 +25,6 @@ body {
     flex-direction: column;
 }
 
-.introductiontext p {
-    font-size: 3vw;
-}
-
 .introductiontext h1 {
     font-size: 5vw;
     margin: auto;
@@ -45,6 +39,9 @@ body {
         width: 55vw;
         height: 35vh;
     }
+    .introductiontext p {
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -56,6 +53,9 @@ body {
         width: 50vw;
         height: 35vh;
     }
+    .introductiontext p {
+        font-size: 3vw;
+    }
 }
 
 @media (min-width: 769px) {
@@ -66,5 +66,8 @@ body {
     .introductiontext {
         width: 40vw;
         height: 35vh;
+    }
+    .introductiontext p {
+        font-size: 3vw;
     }
 }
