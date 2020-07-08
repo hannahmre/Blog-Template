@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>My Blog</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/8d9f47f2ed.js" crossorigin="anonymous"></script>
+    <script src="scripts/transition.js"></script>
+    <link href="styles/navbar_style.css" rel="stylesheet">
+    <link href="styles/duplicate_styles.css" rel="stylesheet">
+    <link href="styles/aboutcontent_style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="active about">
+            <a href="index.html"><i class="fas fa-user"></i><p>About Me</p></a>
+        </div>
+        <div class="travel open">
+            <a href="travel.html"><i class="fas fa-plane"></i><p>Travel</p></a>
+        </div>
+        <div class="recipes open ">
+            <a href="#"><i class="fas fa-utensils"></i><p>Recipes</p></a>
+        </div>
+        <div class="selfcare open">
+            <a href="#"><i class="fas fa-heartbeat"></i><p>Self Care</p></a>
+        </div>
+    </nav>
+    <section>
+        <div class="contentbox box">
+            <img class="profilepic" src="imgs/profileblog.png">
+            <div class="introductiontext">
+                <div class="hello">
+                    <h1>Hello!</h1>
+                </div>
+                <div class="sentence">
+                    <p class="im">I'm <span id="profileoption" class="profileoption"></span></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
